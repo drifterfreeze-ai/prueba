@@ -1,0 +1,140 @@
+﻿
+
+body {
+
+ margin: 0px;
+ background: black;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-position: center;
+ background-attachment:fixed;
+ 
+}
+
+
+
+
+#the{
+
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    margin-bottom: 30px;
+    
+
+
+}
+
+    #the header {
+        color: rgba(211,111,0,1.7);
+        font-size: 40px;
+        font-family:'Times New Roman', Times, serif;
+        
+    }
+
+
+    #clos form{
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items:center;
+        width: 300px;
+        height: 200px;
+        margin: auto;
+        justify-content: space-between;
+        padding-top: 25PX;
+       
+  
+
+    }
+
+
+
+#clos {
+    
+    height: 40vh;
+    width: calc(310px);
+    margin:auto;
+    border: 1px solid rgb(128, 128, 128);
+    background: rgb(128, 128, 128,0.12);
+    backdrop-filter: blur(4px);
+    box-shadow: 6px 6px 13px black;
+    border-radius: 7px;
+}
+
+
+    #clos i {
+        color: rgba(211,111,0,1.7);
+        font-size: 20px;
+        width:20px;
+    }
+
+
+.os {
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgba(211,111,0,1.7);
+    color: pink;
+    outline: none;
+    padding: 5px 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#bot {
+    width: 100px; 
+    height: 20px;
+    padding: 2px 6px;
+    background: rgba(211, 111, 0, 0.85); 
+    color: #ffffff; 
+    font-weight: 600; 
+    border: none; 
+    border-radius: 8px; 
+    cursor: pointer;
+    margin-top: 20px; 
+    box-shadow: 0 4px 15px rgba(211, 111, 0, 0.3); 
+    transition: all 0.3s ease;
+}
+
+
+    @media (max-width: 900px) {
+
+        #clos {
+            margin: auto;
+        }
+    }
+
+
+
+   .os:hover{
+
+       border-bottom: 2px solid pink;
+
+     
+
+
+
+
+   }
+
+
+#bot:hover {
+    background: rgba(255, 182, 193, 0.4);
+    backdrop-filter: blur(120px);
+    transform:scale(0.9);
+}
+
+
+
+
+.cosas{
+
+    color: red;
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+    
+
+
+
+}
