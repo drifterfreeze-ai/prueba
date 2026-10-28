@@ -106,7 +106,7 @@ boton();
 
 
 
-let fondos = ["fondo.jpg","fondo2.jpg","fond3.jpg","fond4.jpg","fond5.jpg"];
+let fondos = ["fondo.jpg","fondo2.jpg","fond4.jpg"];
 
 let posion  = 0;
 
